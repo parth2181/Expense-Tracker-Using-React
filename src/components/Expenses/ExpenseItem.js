@@ -7,7 +7,7 @@ import Cards from "../UI/Cards";
 const ExpenseItem = (props) => {
 const clickHandler=()=>{
 
-console.log("clicked");
+console.log("clicked delete Button");
 }
  
   return (
