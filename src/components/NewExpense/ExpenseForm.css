@@ -1,45 +1,47 @@
 .expense-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    max-width: 700px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .form-control {
-      display: flex;
-    margin: 10px 0;
-  }
-  .form-control label {
-    font-weight: bold;
-    margin-right: 10px; 
-  }
-  label {
-    font-weight: bold;
-  }
-  
-  input {
-    padding: 5px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #5E5DF0;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  display: flex;
+  margin: 10px 0;
+}
+.form-control label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #5e5df0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-expense__actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
